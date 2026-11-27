@@ -15,11 +15,11 @@ const uint8_t PIN_DISPENSER = 9;
 const uint8_t PIN_LEVEL = 30;
 
 // stirrer
-const uint8_t PORT_MIXER = 1;
+const uint8_t PORT_MIXER = 3; //M3
 // submersible
 const uint8_t PORT_FILL = 2;
 // diaphragm
-const uint8_t PORT_FILTER = 3;
+const uint8_t PORT_FILTER = 1; //1
 // peristaltic
 const uint8_t PORT_RETURN = 4;
 

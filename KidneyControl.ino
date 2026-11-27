@@ -95,6 +95,8 @@ void loop() {
         enter(DOSE);
       }
       else if (elapsed(T_FILL_MS + MARGIN_MS)) fault("FILL TIMEOUT");
+
+
       break;
 
     // amylase, once per run
