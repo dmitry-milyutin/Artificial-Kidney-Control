@@ -16,7 +16,8 @@ void btnBegin() {
 }
 
 bool btnEstop() {
-  return estopLatched || digitalRead(PIN_ESTOP) == LOW;
+  return false;
+  // return estopLatched || digitalRead(PIN_ESTOP) == LOW;
 }
 
 bool btnStartHeld(unsigned long ms) {
